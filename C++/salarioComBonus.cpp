@@ -4,15 +4,14 @@
 using namespace std;
 
 int main(){
+    
     string nome;
-    double salarioF, vendasT,salarioFinal;
+    double salarioFixo, vendasMes,salarioFinal;
     cin>>nome;
     cout<<fixed<<setprecision(2);
-    cin>>salarioF>>vendasT;
-    salarioFinal = vendasT*0.15+salarioF;
+    cin>>salarioFixo>>vendasMes;
+    salarioFinal = vendasMes*0.15+salarioFixo;
     cout<<"TOTAL = R$ "<< salarioFinal<<endl;
-
-
 
     return 0;
 }
